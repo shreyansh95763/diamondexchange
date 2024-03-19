@@ -173,8 +173,10 @@
 
 .odd-matches-right div {
     border: .5px solid var(--color-white);
-    padding: .266rem;
     width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .odd-matches-right div:nth-child(1) {

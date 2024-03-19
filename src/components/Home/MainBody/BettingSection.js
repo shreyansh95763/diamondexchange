@@ -10,16 +10,16 @@ export const BettingSection=()=>{
     })
 
     const navToBetPage=()=>{
-        navigate("/bet")
+        navigate("bet")
     }
     const moveToButtons=(page)=>{
         setStyle({
             [page]:{backgroundColor:"#2c3e50",color:"white"}
         })
-        if(page === "football") {navigate("/FOOTBALL")}
-        if(page === "cricket") {navigate("/CRICKET")}
-        if(page === "tennis") {navigate("/TENNIS")}
-        if(page === "kabaddi") {navigate("/KABADDI")}
+        if(page === "football") {navigate("/diamondexchange/FOOTBALL")}
+        if(page === "cricket") {navigate("/diamondexchange/CRICKET")}
+        if(page === "tennis") {navigate("/diamondexchange/TENNIS")}
+        if(page === "kabaddi") {navigate("/diamondexchange/KABADDI")}
         
     }
     return(<>

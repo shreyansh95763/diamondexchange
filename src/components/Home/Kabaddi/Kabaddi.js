@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export const Kabaddi=()=>{
     const navigate = useNavigate();
     const navToBetPage=()=>{
-        navigate("/bet")
+        navigate("bet")
     }
     return(<>
           <div className="betting-section-container">

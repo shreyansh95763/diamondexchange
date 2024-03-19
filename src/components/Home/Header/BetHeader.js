@@ -35,17 +35,17 @@ export const BetHeader = () => {
             </div>
 
             <div className="game-option">
-                <div className="nav-link"><NavLink to="/" className="navLink"> HOME</NavLink></div>
-                <div className="nav-link"><NavLink to="/PSL" className="navLink">PSL 2024 </NavLink></div>
-                <div className="nav-link"><NavLink to="/WPL" className="navLink">WIPL 2024 </NavLink></div>
-                <div className="nav-link"><NavLink to="/IPL" className="navLink">IPL 2024 </NavLink></div>
-                <div className="nav-link"><NavLink to="/CRICKET" className="navLink">CRICKET </NavLink></div>
-                <div className="nav-link"><NavLink to="/TENNIS" className="navLink">TENNIS </NavLink></div>
-                <div className="nav-link"><NavLink to="/FOOTBALL" className="navLink">FOOTBALL </NavLink></div>
-                <div className="nav-link"><NavLink to="/KABADDI" className="navLink">KABADDI </NavLink></div>
-                <div className="nav-link"><NavLink to="/live-teen-patti" className="navLink">LIVE TEEN PATTI </NavLink></div>
-                <div className="nav-link"><NavLink to="/live-poker" className="navLink">LIVE POKER </NavLink></div>
-                <div className="nav-link"><NavLink to="/lucky-7" className="navLink">LUCKY 7 </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/" className="navLink"> HOME</NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/PSL" className="navLink">PSL 2024 </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/WPL" className="navLink">WIPL 2024 </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/IPL" className="navLink">IPL 2024 </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/CRICKET" className="navLink">CRICKET </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/TENNIS" className="navLink">TENNIS </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/FOOTBALL" className="navLink">FOOTBALL </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/KABADDI" className="navLink">KABADDI </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/live-teen-patti" className="navLink">LIVE TEEN PATTI </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/live-poker" className="navLink">LIVE POKER </NavLink></div>
+                <div className="nav-link"><NavLink to="/diamondexchange/lucky-7" className="navLink">LUCKY 7 </NavLink></div>
             </div>
         </>
     );

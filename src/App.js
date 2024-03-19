@@ -19,19 +19,31 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<BetHome />} />
-          <Route path="/PSL" element={<BetHome />} />
-          <Route path="/WPL" element={<BetHome />} />
-          <Route path="/IPL" element={<BetHome />} />
-          <Route path="/CRICKET" element={<CricketContainer />} />
-          <Route path="/TENNIS" element={<TennisContainer />} />
-          <Route path="/KABADDI" element={<KabaddiContainer />} />
-          <Route path="/FOOTBALL" element={<FootballContainer />} />
-          <Route path="/live-teen-patti" element={<TeenPattiContainer />} />
-          <Route path="/live-poker" element={<LivePokerContainer />} />
-          <Route path="/lucky-7" element={<Lucky7Container />} />
+          <Route path="/diamondexchange" element={<BetHome />} />
+          <Route path="/diamondexchange/PSL" element={<BetHome />} />
+          <Route path="/diamondexchange/WPL" element={<BetHome />} />
+          <Route path="/diamondexchange/IPL" element={<BetHome />} />
+          <Route path="/diamondexchange/CRICKET" element={<CricketContainer />} />
+          <Route path="/diamondexchange/TENNIS" element={<TennisContainer />} />
+          <Route path="/diamondexchange/KABADDI" element={<KabaddiContainer />} />
+          <Route path="/diamondexchange/FOOTBALL" element={<FootballContainer />} />
+          <Route path="/diamondexchange/live-teen-patti" element={<TeenPattiContainer />} />
+          <Route path="/diamondexchange/live-poker" element={<LivePokerContainer />} />
+          <Route path="/diamondexchange/lucky-7" element={<Lucky7Container />} />
 
-          <Route path='/bet' element={<BetPage />} />
+
+          <Route path="/diamondexchange/PSL" element={<BetPage />} />
+          <Route path="/diamondexchange/WPL/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/IPL/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/CRICKET/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/TENNIS/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/KABADDI/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/FOOTBALL/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/live-teen-patti/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/live-poker/bet" element={<BetPage />} />
+          <Route path="/diamondexchange/lucky-7/bet" element={<BetPage />} />
+
+          {/* <Route path='/diamondexchange/bet' element={<BetPage />} /> */}
         </Routes>
       </BrowserRouter>
       <Footer />

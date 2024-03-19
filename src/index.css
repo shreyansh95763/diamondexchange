@@ -89,6 +89,13 @@ body {
   text-decoration: none;
   color: var(--color-white-);
 }
+.navLink:nth-child(3){
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  50%{font-size: 10rem;}
+}
 
 /* Media Queries for responsiveness */
 @media screen and (max-width: 900px) {
