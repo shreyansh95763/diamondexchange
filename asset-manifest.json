@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/diamondexchange/static/css/main.1ac39257.css",
+    "main.js": "/diamondexchange/static/js/main.be42dcd3.js",
+    "static/js/453.c9e2890a.chunk.js": "/diamondexchange/static/js/453.c9e2890a.chunk.js",
+    "index.html": "/diamondexchange/index.html",
+    "main.1ac39257.css.map": "/diamondexchange/static/css/main.1ac39257.css.map",
+    "main.be42dcd3.js.map": "/diamondexchange/static/js/main.be42dcd3.js.map",
+    "453.c9e2890a.chunk.js.map": "/diamondexchange/static/js/453.c9e2890a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ac39257.css",
+    "static/js/main.be42dcd3.js"
+  ]
+}
