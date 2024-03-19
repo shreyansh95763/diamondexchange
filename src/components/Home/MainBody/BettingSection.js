@@ -1,17 +1,37 @@
+import { useState } from "react";
 import { ImageGame } from "./ImageSection/ImageGame"
-import { MatchList } from "./MatchList"
+import { MatchList } from "./MatchList";
+import { useNavigate } from "react-router-dom";
 
 export const BettingSection=()=>{
+    const navigate = useNavigate();
+    const [style,setStyle] = useState({
+        cricket:{backgroundColor:"#2c3e50",color:"white"},
+    })
+
+    const navToBetPage=()=>{
+        navigate("/bet")
+    }
+    const moveToButtons=(page)=>{
+        setStyle({
+            [page]:{backgroundColor:"#2c3e50",color:"white"}
+        })
+        if(page === "football") {navigate("/FOOTBALL")}
+        if(page === "cricket") {navigate("/CRICKET")}
+        if(page === "tennis") {navigate("/TENNIS")}
+        if(page === "kabaddi") {navigate("/KABADDI")}
+        
+    }
     return(<>
         <div className="betting-section-container">
             <div className="upper-games">
-                <div>Football</div>
-                <div>Tennis</div>
-                <div>Kabaddi</div>
-                <div>Cricket</div>
-                <div>Horse Racing</div>
-                <div>Greyhound Raceing</div>
-                <div>Ice Hockey</div>
+                <div style={style.football} onClick={()=>{moveToButtons("football")}}>Football</div>
+                <div style={style.tennis}  onClick={()=>{moveToButtons("tennis")}} >Tennis</div>
+                <div style={style.kabaddi}  onClick={()=>{moveToButtons("kabaddi")}} >Kabaddi</div>
+                <div style={style.cricket}  onClick={()=>{moveToButtons("cricket")}} >Cricket</div>
+                <div style={style.HRacing}  onClick={()=>{moveToButtons("HRacing")}} >Horse Racing</div>
+                <div style={style.GRacing}  onClick={()=>{moveToButtons("GRacing")}} >Greyhound Racing</div>
+                <div style={style.IceHockey}  onClick={()=>{moveToButtons("IceHockey")}} >Ice Hockey</div>
             </div>
         <div style={{marginTop:"1rem"}}>
             <div className="game-heading">
@@ -24,7 +44,7 @@ export const BettingSection=()=>{
             </div>
 
             <div className="game-list">
-                <div className="game-name">
+                <div className="game-name" onClick={navToBetPage}>
                     <p>Ball by ball</p>
                 </div>
                 <div className="result-list">
@@ -37,10 +57,10 @@ export const BettingSection=()=>{
                 </div>
             </div>
 
-            <MatchList />
-            <MatchList />
-            <MatchList />
-            <MatchList />
+            <MatchList navToBet={navToBetPage} />
+            <MatchList navToBet={navToBetPage} />
+            <MatchList navToBet={navToBetPage} />
+            <MatchList navToBet={navToBetPage} />
 
             </div>
             <ImageGame />

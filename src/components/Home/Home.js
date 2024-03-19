@@ -1,9 +1,9 @@
-import { HomeBody } from "./MainBody/Body"
+import { HomeBody } from "./MainBody/HomeBody"
 // import { BetHome } from './components/Home/Home';
 import { BetHeader } from "./Header/BetHeader"
 
 export const BetHome=()=>{
-    return(<> 
+    return(<>
         <BetHeader />
         <HomeBody />
     </>)

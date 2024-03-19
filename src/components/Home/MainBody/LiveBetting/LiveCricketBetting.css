@@ -1,0 +1,300 @@
+:root {
+    --primary-color: #007bff;
+    /* Blue */
+    --color-white: white;
+    --color-white1: #ededee;
+    --color-black: black;
+    --color-black1: #2c3e50;
+    --color-pink: rgb(250, 169, 186);
+    --color-pink1: rgb(255, 179, 246);
+    --color-pink2: rgb(249, 203, 243);
+}
+
+.betting-cricket-container {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    margin: .1rem 0 0 .4rem;
+    color: var(--color-white);
+    height: auto;
+}
+
+
+.container-left {
+    width: 70%;
+}
+
+.container-left-div1 {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.left-container-heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-black1);
+    height: 2rem;
+    width: 100%;
+}
+
+.left-container-heading h5 {
+    font-size: 1rem;
+    font-weight: 660;
+    margin: auto 1rem;
+}
+
+.left-container-total-run {
+    background-image: url("https://diamonddexch789.com/assets/images/scorecard-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+.left-container-total-run-left h5 {
+    font-size: 1rem;
+}
+
+.left-container-total-run-left {
+    width: 35%;
+}
+
+.left-container-total-run-left div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-rate {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.left-container-total-run-balls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-container-total-run-balls p {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: .2rem;
+    font-size: 1.3rem;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*************** Right section *****************/
+
+.container-right {
+    width: 30%;
+    margin: 0 .5rem;
+}
+
+.container-right-mid {
+    margin: .4rem 0;
+}
+
+.matched-bet-container {
+    height: 1.5rem;
+    background-color: var(--color-white1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .4rem;
+    font-size: .9rem;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+
+.matched-bet-container-div {
+    padding: 0 .5rem;
+    background-color: var(--primary-color);
+    /* color: var(--color-white); */
+    margin: 0;
+}
+
+/**************** Betting matches constainer  divs ***********************/
+.odd-matches-div2 {
+    display: flex;
+    height: 2.5rem;
+    background-color: var(--color-white1);
+    color: var(--color-black1);
+    font-weight: 550;
+}
+
+.odd-matches-left {
+    width: 55%;
+    border: .5px solid var(--color-white);
+}
+
+.odd-matches-right {
+    display: flex;
+    width: 45%;
+    font-weight: 700;
+}
+
+.odd-matches-left-first {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 650;
+}
+
+.odd-matches-right-first {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    font-weight: 700;
+}
+
+.odd-matches-right-first div {
+    border: .5px solid var(--color-white);
+    padding: .3rem;
+    width: 16.7%;
+}
+
+.odd-matches-right-first div:nth-child(1) {
+    background-color: #3e99fa;
+}
+
+.odd-matches-right-first div:nth-child(2) {
+    background-color: var(--color-pink);
+}
+
+.odd-matches-right div {
+    border: .5px solid var(--color-white);
+    padding: .266rem;
+    width: 20%;
+}
+
+.odd-matches-right div:nth-child(1) {
+    background-color: #92c1f3;
+}
+
+.odd-matches-right div:nth-child(2) {
+    background-color: #69b1fd;
+}
+
+.odd-matches-right div:nth-child(3) {
+    background-color: #3e99fa;
+}
+
+.odd-matches-right div:nth-child(4) {
+    background-color: var(--color-pink);
+}
+
+.odd-matches-right div:nth-child(5) {
+    background-color: var(--color-pink1);
+}
+
+.odd-matches-right div:nth-child(6) {
+    background-color: var(--color-pink2);
+}
+
+/*****************    Div 4   ***********************/
+.left-container-div4 {
+    width: 70%;
+}
+
+.right-container-div4 {
+    width: 30%;
+    margin-left: .5rem;
+}
+
+.odd-matches-left-doubles {
+    width: 45%;
+}
+
+.odd-matches-right-doubles {
+    width: 55%;
+}
+
+/****** Bookmaker small betting container ************/
+.small-div-container {
+    display: flex;
+    height: 3rem;
+    color: var(--color-black);
+    background-color: var(--color-white1);
+}
+
+.div-box1 {
+    width: 40%;
+    font-weight: 600;
+    padding-top: .4rem;
+}
+
+.box1 {
+    font-size: .9rem;
+    font-weight: 500;
+    border: .5px solid var(--color-white);
+}
+
+.div-box2 {
+    width: 60%;
+    display: flex;
+}
+
+.div-box2 div {
+    width: 33%;
+    border: .5px solid var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.div-box2 div:nth-child(1) {
+    background-color: #007bff;
+}
+
+.div-box2 div:nth-child(2) {
+    background-color: var(--color-pink);
+}
+
+/********************* Div 5 **************************/
+.left-container-div5 {
+    width: 50%;
+}
+
+.right-container-div5 {
+    width: 50%;
+    margin-left: .8rem;
+}
+
+.cols-box div:nth-child(1) {
+    background-color: var(--color-pink);
+}
+
+.cols-box div:nth-child(2) {
+    background-color: var(--primary-color);
+}
+
+.betting-title {
+    font-weight: 500;
+    font-size: .8rem;
+    padding-left: .5rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .betting-cricket-container {
+        flex-direction: column;
+    }
+    .container-left {
+        width: 100%;
+    }
+    .container-right {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
