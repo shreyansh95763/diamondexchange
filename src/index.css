@@ -89,7 +89,7 @@ body {
   text-decoration: none;
   color: var(--color-white-);
 }
-.navLink:nth-child(3){
+.navLink{
   animation: mymove 3s infinite;
 }
 
